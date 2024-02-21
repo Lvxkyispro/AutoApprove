@@ -45,21 +45,21 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/VenomOwners"),
-                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Venom_Chatz")
+                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/lvxbots"),
+                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/lvxkychat")
                     ],[
-                        InlineKeyboardButton("💕 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 💕", url="https://t.me/Auto_ApproveRobot?startgroup")
+                        InlineKeyboardButton("💕 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 💕", url="https://t.me/LvAutoapproveBot?startgroup")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://te.legra.ph/file/d14583a747edd5c3bed7a.jpg", caption="**🇮🇳 ʜᴇʟʟᴏ {}!\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [ᴀᴅᴍɪɴ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛs]({}) ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟ.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\n__ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Venom_Chatz __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/dd953f8711405adb7ecef.jpg", caption="**🇮🇳 ʜᴇʟʟᴏ {}!\nɪ'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [ᴀᴅᴍɪɴ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛs]({}) ʙᴏᴛ.\nɪ ᴄᴀɴ ᴀᴘᴘʀᴏᴠᴇ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs/ᴄʜᴀɴɴᴇʟ.ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴛᴏ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀᴅᴅ ᴍᴇᴍʙᴇʀs ᴘᴇʀᴍɪssɪᴏɴ.\n\n__ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Venom_Chatz __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔥 sᴛᴀʀᴛ ᴍᴇ ᴘʀɪᴠᴀᴛᴇ 🔥", url="https://t.me/Auto_ApproveRobot?start=start")
+                        InlineKeyboardButton("🔥 sᴛᴀʀᴛ ᴍᴇ ᴘʀɪᴠᴀᴛᴇ 🔥", url="https://t.me/LvAutoapproveBot?start=start")
                     ]
                 ]
             )
@@ -87,10 +87,10 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/VenomOwners"),
-                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Venom_Chatz")
+                        InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/lvxbots"),
+                        InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/lvxkychat")
                     ],[
-                        InlineKeyboardButton("👻 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 👻", url="https://t.me/Auto_ApproveRobot?startgroup")
+                        InlineKeyboardButton("👻 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ 👻", url="https://t.me/LvAutoapproveBot?startgroup")
                     ]
                 ]
             )
